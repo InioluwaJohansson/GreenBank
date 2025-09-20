@@ -1,0 +1,14 @@
+﻿@using BankApp.Models.DTOs
+@model GetCustomerDto
+    <form method="post">
+        <div class="form-group">
+            <label for="AccountNo">Account Number</label>
+            <input type="text" name="AccountNo" id="AccountNo" for="AccountNo" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" class="form-control" />
+        </div>
+        <a href="Create.cshtml">SignUp Here</a>
+        <button type="submit">Login</button>
+    </form>

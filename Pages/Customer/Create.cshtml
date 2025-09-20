@@ -1,0 +1,105 @@
+﻿    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div class="form-group">
+                    <label for="User.FirstName">FirstName</label>
+                    <input type="text" name="User.FirstName" id="FirstName" for="FirstName" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                    <label for="User.LastName">LastName</label>
+                    <input type="text" name="User.LastName" id="LastName" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="User.Email">Email</label>
+                    <input type="email" name="User.Email" id="Email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                    <label for="User.Gender">Gender</label>
+                    <select required name="User.Gender" id="Gender" class="form-control">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">RatherNotSay</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label for="User.Age">Age</label>
+                    <input type="number" name="User.Age" id="Age" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                    <label for="User.PhoneNumber">PhoneNumber</label>
+                    <input type="tel" name="User.PhoneNumber" id="PhoneNumber" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                    <label for="User.Password">Password</label>
+                        <input type="password" name="User.Password" id="Password" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="AccountType">AccountType</label>
+                        <select required name="AccountType" id="AccountType" class="form-control">
+                                <option value="1">Business</option>
+                                <option value="2">Current</option>
+                                <option value="3">Savings</option>
+                                <option value="4">Student</option>
+                                <option value="5">SKS</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="DateOfBirth">Date Of Birth</label>
+                        <input type="datetime" name="DateOfBirth" id="DateOfBirth" class="form-control" />
+                    </div>
+                <div class="form-group">
+                    <input type="hidden" name="Balance" id="Balance" value="0" class="" />
+                    <input type="hidden" name="User.AccountStatus" id="AccountStatus" value="2" class="" />
+                    <input type="hidden" name="LoanPay" id="LoanPay" value="2" class="" />
+                </div>
+                    <div class="form-group">
+                        <label for="Loans">Loans</label>
+                        <select required name="Loans" id="Loan" class="form-control">
+                            <option value="1">Business</option>
+                            <option value="2">Current</option>
+                            <option value="3">Savings</option>
+                            <option value="4">Student/SKS</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="BVN">BVN</label>
+                        <input type="text" name="BVN" id="BVN" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="NIN">NIN</label>
+                        <input type="text" name="NIN" id="NIN" class="form-control" />
+                    </div>
+                <div class="form-group">
+                    <label for="NextOfKin">Next Of Kin</label>
+                    <input type="text" name="NextOfKin" id="NextOfKin" class="form-control" />
+                </div>
+                    <div class="form-group">
+                    <label for="User.Address.NumberLine">NumberLine</label>
+                    <input type="number" name="User.Address.NumberLine" id="NumberLine" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                    <label for="User.Address.Street">Street</label>
+                    <input type="text" name="User.Address.Street" id="Street" class="form-control" />
+                    </div>
+                <div class="form-group">
+                    <label for="User.Address.City">City</label>
+                    <input type="text" name="User.Address.City" id="City" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="User.Address.State">State</label>
+                    <input type="text" name="User.Address.State" id="State" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="User.Address.Country">Country</label>
+                    <input type="text" name="User.Address.Country" id="Country" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="User.Address.PostalCode">PostalCode</label>
+                    <input type="number" name="User.Address.PostalCode" id="PostalCode" class="form-control" />
+                </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
